@@ -408,16 +408,16 @@ def migrate_chats(bot: Bot, update: Update):
 
 
 def main():
-    test_handler = CommandHandler("تجربة", test)
-    start_handler = CommandHandler("البدأ", start, pass_args=True)
+    test_handler = CommandHandler("test", test)
+    start_handler = CommandHandler("start", start, pass_args=True)
 
-    help_handler = CommandHandler("مساعدة", get_help)
+    help_handler = CommandHandler("help", get_help)
     help_callback_handler = CallbackQueryHandler(help_button, pattern=r"help_")
 
-    settings_handler = CommandHandler("مساعدة", get_settings)
+    settings_handler = CommandHandler("settingsz", get_settings)
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
-    donate_handler = CommandHandler("تبرع", donate)
+    donate_handler = CommandHandler("donate", donate)
     migrate_handler = MessageHandler(Filters.status_update.migrate, migrate_chats)
 
     # dispatcher.add_handler(test_handler)
