@@ -1,6 +1,6 @@
 
 {
-  "name": "Marie-2.0 بالعربية",
+  "name": "Mahaan",
   "description": "مدير المجموعة الأكثر جدية في Telegram. بوت إدارة مجموعة تيليجرام!",
   "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "manager",
     "3"
   ],
-  "repository": "hhttps://github.com/TGExplore/Marie-2.0-English",
+  "repository": "https://github.com/Agunivers/mahaan",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
@@ -21,7 +21,7 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "683538773"
+      "value": "1323557247"
     },
     "OWNER_USERNAME": {
       "description": "Your username",
@@ -41,15 +41,15 @@
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
-      "value": "254318997 683538773 570400686 466337795"
+      "value": "https://telegra.ph/file/925b8e0781e4cacc042d9.jpg"
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": "254318997 683538773 570400686 466337795"
+      "value": "1323557247"
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": "254318997 683538773 570400686 466337795"
+      "value": "1323557247"
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
